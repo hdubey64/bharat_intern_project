@@ -43,3 +43,35 @@ section {
    display: grid;
    margin: 20px auto;
 }
+
+input {
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   padding: 5px;
+   width: 400px;
+}
+input[type="checkbox"] {
+   width: 0.8em;
+   height: 0.8em;
+   border: none;
+}
+
+input::placeholder {
+   font-size: 16px;
+   opacity: 0.5;
+}
+.result {
+   font-size: 2.5rem;
+   font-weight: 700;
+}
+button {
+   background-color: #03045e;
+   font-size: 1.5rem;
+   font-weight: 700;
+   color: white;
+   padding: 12px 25px;
+   cursor: pointer;
+   border-radius: 10px;
+   border: none;
+}
